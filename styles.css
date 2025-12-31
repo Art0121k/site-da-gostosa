@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.caixa-texto {
+    width: 600px;
+
+}
+
+h1 {
+    color: rgb(231, 121, 185);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 0;
+}
+
+span {
+    color: rgb(247, 88, 88);
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    background: rgb(202, 38, 38);
+    color: white;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.mateuslogo {
+    width: 100px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+
+button:hover {
+    background: rgb(211, 74, 74);
+
+
+}
+
+.caixa-texto {
+    width: 600px;
+    margin-top: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botao-menu:hover {
+    width: 100px;
+    transform: translateY(-30px);
+
+}
+
+.menu-rato {
+    width: 400px;
+    position: fixed;
+    top: 150px;
+    right: 20px;
+    z-index: 500;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu-rato:hover {
+    width: 420px;
+    transform: translateY(-30px);
+    transform: rotate(-5deg);
+
+}
+
+.botao {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgb(202, 38, 38);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 40px;
+
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background: rgb(211, 74, 74);
+    transform: scale(1.05);
+}
+
+.botao:active {
+    transform: scale(0.98);
+}
